@@ -99,14 +99,6 @@ python socket_server.py  # Socket → 端口 9000
 # Build → Build APK(s)
 ```
 
-## 👥 小组分工
-
-| 成员 | 职责 |
-|------|------|
-| 学生一（组长） | 项目架构、MySQL 设计、Socket 服务器、用户/消息后端、文档撰写 |
-| 学生二 | Android 框架搭建、UI 实现、内容发布、社交互动、HTTP 封装 |
-| 学生三 | 加速度传感器计步、运动健康模块、Socket 客户端、消息推送、搜索 |
-
 ## 📄 考核技术覆盖
 
 - ✅ **网络通信** — HTTP (OkHttp) + Socket 长连接
