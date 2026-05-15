@@ -99,7 +99,7 @@ python socket_server.py  # Socket → 端口 9000
 # Build → Build APK(s)
 ```
 
-## 📄 考核技术覆盖
+## 📄 技术覆盖
 
 - ✅ **网络通信** — HTTP (OkHttp) + Socket 长连接
 - ✅ **数据库服务器** — MySQL 8.0
@@ -110,10 +110,5 @@ python socket_server.py  # Socket → 端口 9000
 
 | 文件 | 说明 |
 |------|------|
-| `docs/期末考查项目任务书.docx` | 任务书（含分工/进度/技术路线） |
-| `docs/设计规格文档.docx` | 设计规格 |
-| `docs/项目设计文档.docx` | 项目设计详细文档 |
-| `docs/系统设计项目书.docx` | 系统设计说明书 |
-| `docs/成绩评定单_*.docx` | 成员评定表（3 份） |
 | `docs/项目交付文档.md` | 交付文档 |
 | `部署指南.md` | 部署构建指南 |
