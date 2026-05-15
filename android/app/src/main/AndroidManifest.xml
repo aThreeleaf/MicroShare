@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.BODY_SENSORS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:name=".config.MicroShareApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="微分享社区"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MicroShare"
+        android:usesCleartextTraffic="true">
+
+        <!-- Compose 单Activity入口 -->
+        <activity
+            android:name=".ui.screens.MainActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 计步后台服务 -->
+        <service
+            android:name=".service.StepService"
+            android:foregroundServiceType="health"
+            android:exported="false" />
+    </application>
+</manifest>

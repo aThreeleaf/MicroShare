@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 小清新主题色 -->
+    <color name="primary">#7EC8A0</color>
+    <color name="primary_dark">#5BA880</color>
+    <color name="primary_light">#A8D8C8</color>
+    <color name="accent">#F09080</color>
+    <color name="accent_light">#F5A898</color>
+    <color name="background">#FAFAF7</color>
+    <color name="white">#FFFFFF</color>
+    <color name="card_bg">#FFFFFF</color>
+    <color name="text_primary">#3E5C3E</color>
+    <color name="text_secondary">#5A6A5A</color>
+    <color name="text_hint">#B0B8A8</color>
+    <color name="divider">#EEF2EC</color>
+    <color name="icon_color">#B0B8A8</color>
+    <color name="tag_bg">#F0FAF3</color>
+    <color name="tag_text">#7EC8A0</color>
+    <color name="success">#7EC8A0</color>
+    <color name="warning">#F0C060</color>
+    <color name="error">#F09080</color>
+    <color name="liked_color">#F09080</color>
+    <color name="saved_color">#F0C060</color>
+</resources>
