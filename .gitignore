@@ -18,3 +18,7 @@ backend/**/__pycache__/
 
 # OS
 Thumbs.db
+
+# Project documents (not for GitHub)
+docs/*设计*.docx
+docs/*系统*.docx
